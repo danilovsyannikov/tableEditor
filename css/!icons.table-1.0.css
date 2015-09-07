@@ -1,0 +1,13 @@
+﻿.toolbar SPAN                  { display: block; width: 20px; height: 16px; background: url(../img/icons-t.png) no-repeat -16px -500px; border: none; cursor: pointer; padding: 0px; }
+
+.toolbar SPAN.icon-t.addRow				{ background-position: 0 0; }
+.toolbar SPAN.icon-t.delRow				{ background-position: -20px 0; }
+.toolbar SPAN.icon-t.addCol				{ background-position: -40px 0; }
+.toolbar SPAN.icon-t.delCol				{ background-position: -60px 0; }
+.toolbar SPAN.icon-t.merge				{ background-position: 0 -16px; }
+.toolbar SPAN.icon-t.unmerge			{ background-position: -20px -16px; }
+.toolbar SPAN.icon-t.cellOptions		{ background-position: -40px -16px; }
+.toolbar SPAN.icon-t.close				{ background-image: url(../img/cross.png); background-position: 0px 0px; }
+.toolbar SPAN.icon-t.cut				{ background-position: 0px -32px; }
+.toolbar SPAN.icon-t.copy				{ background-position: -20px -32px; }
+.toolbar SPAN.icon-t.paste				{ background-position: -60px -32px; }

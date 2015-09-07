@@ -1,0 +1,80 @@
+﻿.tableEditor					{ width: 100%; }
+.tableEditor .active			{ background-image: url('../img/dl.png'); background-attachment: fixed; background-repeat: repeat; }
+.tableEditor .toolSel			{ background-image: url('../img/dl.png') !important; background-attachment: fixed !important; }
+
+.tableEditor TD.item			{ cursor: default; width: auto; height: auto; padding: 0; border: 1px dotted #AAA; background-color: #fff;position: relative;}
+.tableEditor TABLE.simpleTable TD		{ border: 1px solid #AAA; }
+
+.tableEditor .topTools			{ height: 0px; }
+
+.tableEditor .topTools TD.arrows{ height: 0px; padding: 0;}
+.tableEditor TD.verTabPrev,
+.tableEditor TD.verTabAfter,
+.tableEditor TD.verTab			{ padding:0px; }
+
+
+.tableEditor TD.tool_row,
+.tableEditor TD.tool_col		{ background: #AAA; cursor: pointer; padding: 2px;text-align: center; vertical-align:middle; color: #fff; border: 1px solid #fff;width: auto; height: auto; }
+.tableEditor TD.arrows			{ border: 0; position: relative; color: #B10000;width: auto; height: auto; padding: 0;  }
+.tableEditor TD.arrows SPAN		{ cursor: pointer; display: inline-block; width: 20px; height: 16px; }
+
+
+.tableEditor TD .merge			{ position: absolute; bottom:0; margin-left: -18px; left:50%;}
+.tableEditor TD .unmerge		{ position: absolute; bottom:0; margin-left: 0px; left:50%;}
+.tableEditor TD .cellOptions	{ position: absolute; bottom:0; left:50%;}
+
+
+.tableEditor TD .addArrowL		{ position: absolute; left: -9px; bottom: 0; z-index: 1; }
+.tableEditor TD .addArrowR		{ position: absolute; right: -11px; bottom: 0; z-index: 1; }
+.tableEditor TD .addArrowT		{ position: absolute; top: -7px; right: 0; z-index: 1; }
+.tableEditor TD .addArrowB		{ position: absolute; bottom: -9px; right: 0; z-index: 1; }
+.tableEditor .delCrossL			{ position: absolute; right: -18px; z-index: 1; margin-top:-7px; }
+.tableEditor .delCrossT			{ position: absolute; bottom: -19px; z-index: 1; margin-left:-9px; left:50%; }
+.tableEditor TD.toolbar			{ text-align:center; vertical-align:middle; background: transparent; }
+
+.pagepart_placeholder			{ text-align:center; vertical-align:middle !important; background: #FFA url('../img/debug.gif') repeat-y top left; color: #aaa; padding-left: 20px; }
+.tableEditor TD.pagepart_placeholder { background-color: #FFA; }
+.clipboardActiveCopy			{ border: 1px solid #00f !important; }
+.clipboardActiveCut				{ border: 1px solid #f00 !important; }
+
+/*contextCircleMenu*/
+
+#circleContextMenu
+{	
+	position: absolute;
+	height: 84px;
+	width: 84px;
+	background: url('../img/contextMenuBG1.png');
+	z-index: 2;
+	padding: 0;
+	margin: 0;
+}
+
+#circleContextMenu .merge,
+#circleContextMenu .unmerge,
+#circleContextMenu .delRow,
+#circleContextMenu .delCol,
+#circleContextMenu .cellOptions,
+#circleContextMenu .close,
+#circleContextMenu .cellCut,
+#circleContextMenu .cellCopy,
+#circleContextMenu .cellPaste
+{
+	position: absolute;
+	cursor: pointer;
+	display: inline-block;
+	width: 20px;
+	height: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+#circleContextMenu .merge		{ top:12px;	left:12px; }
+#circleContextMenu .unmerge		{ top:4px;	left:32px; }
+#circleContextMenu .delRow		{ top:33px;	left:3px;  }
+#circleContextMenu .delCol		{ top:33px;	left:61px; }
+#circleContextMenu .cellOptions	{ top:12px;	left:52px; }
+#circleContextMenu .close		{ top:34px;	left:34px; width: 16px; height: 16px;}
+#circleContextMenu .cellCut		{ top:56px;	left:12px; }
+#circleContextMenu .cellCopy	{ top:56px;	left:53px; }
+#circleContextMenu .cellPaste	{ top:64px;	left:32px; }

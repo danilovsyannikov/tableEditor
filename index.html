@@ -1,0 +1,19 @@
+<html>
+<head>
+	<link href="css/tableEditor.css" media="all" rel="stylesheet" type="text/css" />
+	<link href="css/!icons.table-1.0.css" media="all" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jq-1.9.0.js"></script>
+	<script type="text/javascript" src="js/tableEditor.js"></script>
+	<script>
+	$(document).ready(function()
+	{
+		var editor	= new $.TableEditor($('#Model_Content_table'),{});
+	});	
+	</script>
+</head>
+<body>
+<div style="width:1000px;margin:100px auto;">
+	<table id="Model_Content_table" style="border-collapse: collapse;" class="tableEditor"></table>
+</div>
+</body>
+</html>
